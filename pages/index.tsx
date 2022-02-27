@@ -54,9 +54,9 @@ const Home: NextPage = () => {
           <RectBanner size="large" />
           <SquareImage size="small" />
           <SquareImage size="small" />
-          <div className='img-medium'>
-            <SquareImage size="medium" />
-          </div>
+          
+          <SquareImage size="medium" />
+         
           <SquareImage size="small" />
           <SquareImage size="small" />
         </div>
@@ -95,8 +95,11 @@ const Home: NextPage = () => {
 
           </div>
           <SquareImage size="large" />
+            
 
         </div>
+
+
         <div className='promotion-banner'>
           <div className={'promotion-banner-left'} id={'flex-9'}>
             <RectBanner size="small" />

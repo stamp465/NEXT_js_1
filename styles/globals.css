@@ -189,7 +189,6 @@ nav {
 
 #flex-7 {
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 100%;
 
@@ -198,6 +197,7 @@ nav {
 #flex-8 {
     width: 33%;
 }
+  
 
 
 #flex-9 {
@@ -205,14 +205,17 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
+    
+    
+
 }
 
 #flex-10 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    overflow: hidden;
+    
+    
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -240,10 +243,21 @@ nav {
 
     #flex-7 {
         flex-direction: column-reverse;
+        align-items: center;
     }
     
     #flex-8 {
         width: 85%;
+    }
+
+    #flex-9 {
+        flex-basis: 40%;
+        overflow: hidden;
+    }
+    
+    #flex-10 {
+        flex-basis: 60%;
+        overflow: hidden;
     }
 
 }
