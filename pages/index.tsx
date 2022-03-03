@@ -94,8 +94,9 @@ const Home: NextPage = () => {
             <button>See More</button>
 
           </div>
-          <SquareImage size="large" />
-            
+          
+            <SquareImage size="large" />
+         
 
         </div>
 
@@ -109,7 +110,12 @@ const Home: NextPage = () => {
             <RectBanner size="medium" />
           </div>
         </div>
+
+
       </main>
+
+      
+
     </div>
   )
 }
