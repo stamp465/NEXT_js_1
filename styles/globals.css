@@ -198,11 +198,14 @@ nav {
 }
   
 #flex-8 {
-    flex-basis: 50%;
+    /*flex-basis: 50%;*/
     flex-grow: 1;
 }
 
-
+  
+#flex-88 {
+    display: flex;
+}
 
 
 #flex-9 {
@@ -252,9 +255,7 @@ nav {
         overflow: hidden;
     }
     
-    #flex-8 {
-        /*flex-grow: 1;*/
-    }
+    
 
 
 }

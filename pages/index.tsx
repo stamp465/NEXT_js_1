@@ -95,8 +95,9 @@ const Home: NextPage = () => {
 
           </div>
           
+          <div id='flex-88'>
             <SquareImage size="large" />
-         
+          </div>
 
         </div>
 
