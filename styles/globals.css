@@ -114,7 +114,7 @@ button {
 }
 
 .paragraph-box {
-    width: 50%;
+    /*width: 50%;*/
     padding: 4em;
 }
 
@@ -132,12 +132,12 @@ button {
 
 .promotion-banner-left {
     margin-right: 8px;
-    max-width: 40%;
+    /*max-width: 40%;*/
 
 }
 .promotion-banner-right {
     margin-left: 8px;
-    max-width: 60%;
+    /*max-width: 60%;*/
 
 }
 
@@ -198,7 +198,8 @@ nav {
 }
   
 #flex-8 {
-    
+    flex-basis: 50%;
+    flex-grow: 1;
 }
 
 
@@ -208,15 +209,17 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    
+    /*align-items: center;*/
+    flex-basis: 40%;
+    overflow: hidden;
 
 }
 
 #flex-10 {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
-    
+    flex-basis: 60%;
+    overflow: hidden;
 
 }
 
@@ -250,18 +253,9 @@ nav {
     }
     
     #flex-8 {
-        flex-shrink: 2;
+        /*flex-grow: 1;*/
     }
 
-    #flex-9 {
-        flex-basis: 40%;
-        overflow: hidden;
-    }
-    
-    #flex-10 {
-        flex-basis: 60%;
-        overflow: hidden;
-    }
 
 }
 
